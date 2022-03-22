@@ -33,7 +33,6 @@
   
    .tnt {
   	font-weight: 700;
-  	/* font-family: 'Overlock', cursive;*/
   	font-family: 'Frijole', cursive, sans-serif;
   	font-size: 75px;
   	margin: 25px 10px;
@@ -75,7 +74,7 @@
   	text-align: center;
   	margin-right: 40px;
   	font-size: 200%;
-      color:  red;
+    color:  red;
   }
 
   a:hover {
@@ -146,47 +145,38 @@
  footer {
  	margin-top: -30px;
  }
+
  footer a {
   	color: red;
   	font-size: 200%;
   	margin-left: 40px;
   }
+
  .red {
   	color: red;
   	font-family: 'Frijole';
   }
+
  .credo {
     background: rgba(0,0,0,0.5);  	
   	font-size: 48px;
   	font-family: 'Yesteryear';
     color:  white;
-
-  	/* -webkit-text-stroke: 1px black;
-  	   text-shadow:
-  	       3px 3px 0 #000,
-  	     -1px -1px 0 #000,  
-  	      1px -1px 0 #000,
-  	      -1px 1px 0 #000,
-  	       1px 1px 0 #000;
-  	-moz-text-stroke: 1px black;
-  			   color:  white;
-  			   text-shadow:
-  			       3px 3px 0 #000,
-  			     -1px -1px 0 #000,  
-  			      1px -1px 0 #000,
-  			      -1px 1px 0 #000,
-  			       1px 1px 0 #000; */
   }
+
  #facebook {
  	margin-left: 30px;
  	margin-top: 18px;;
  }
+
  #email {
  	font-size: 100%;
  }
+
  #cc {
  	margin: 15px 0 45px 0;
  }
+
  #visit a {
  	margin: 0px;
  }
