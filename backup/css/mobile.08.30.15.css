@@ -1,0 +1,132 @@
+body {
+	background-color: #333;
+	background-image: url(../img/grate_texture.jpg);
+	background-repeat: repeat;
+	color: red;
+}
+
+
+.jumbotron {
+	background: #333;
+	text-shadow: 5px 0 2px #2d2626;
+}
+
+.jumbotron h1 {
+	font-size: 4.8em;
+	font-weight: bold;
+	text-shadow: 1px 0 2px #2d2626;
+}
+
+.jumbotron h2 {
+	font-size: 3.2em;
+	font-weight: bold;
+	text-shadow: 1px 0 2px #2d2626;
+}
+
+.jumbotron h3 {
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: 1px 0 2px #2d2626;
+}
+
+nav ul {
+	background: #666;
+}
+
+ul li {
+	width: 100%;
+	border: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #333;
+	background: -moz-linear-gradient(top, #fff 0%, #666 100%);
+	background: -webkit-linear-gradient(top, #fff 0%, #666 100%);
+	background: -o-linear-gradient(top, #fff 0%, #666 100%);
+	background: -ms-linear-gradient(top, #fff 0%, #666 100%);
+	background: linear-gradient(top, #fff 0%, #666 100%);
+	
+	
+	/*margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px #f7f6f6;
+	*/
+	text-transform: uppercase;
+	font-weight: bold;
+	/*
+	-webkit-background-clip: text;
+	    -moz-background-clip: text;
+	    background-clip: text;
+	
+	    color: transparent;
+	    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+	    
+	*/
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+	                 0px -5px 35px rgba(255,255,255,0.3);
+	
+}
+
+ul li:first-child {
+	border-top: none;
+	border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+	-webkit-border-radius: 7px 7px 0px 0px;
+	border: 0px solid #000000;
+	
+}
+
+ul li:last-child {
+	
+	border-bottom: 1px solid #333;;
+	border-radius: 0px 0px 17px 17px;
+	-moz-border-radius: 0px 0px 7px 7px;
+	-webkit-border-radius: 0px 0px 7px 7px;
+	border: 0px solid #000000;
+	
+}
+
+ul li a {
+	color: black;
+	font-size: 3em;
+	line-height: 100%;
+	
+}
+ul li,a:active {
+	color: yellow;
+}
+ul li,a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+footer h3 {
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	-webkit-text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+		text-shadow: 0 0 2px #040404;
+	
+	}
+footer a{
+	color: white;
+	-webkit-text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+	text-shadow: 0 0 2px #040404;
+}
+
+/*
+.jumbotron {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 
+	background: #d0e4f7; 	background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(24%,#73b1e7), color-stop(50%,#0a77d5), color-stop(79%,#539fe1), color-stop(100%,#87bcea)); 	background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); 	background: -o-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); 
+	background: -ms-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%);
+	background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); */
+
+
+
+/*
+nav li {
+	display: block;
+	border: 1px solid #333;
+	background-color: grey;
+}
+*/
